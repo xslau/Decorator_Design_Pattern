@@ -5,6 +5,7 @@
 public class Rims extends VehicleDecorator{
 
     public static final double COST = 200; 
+    public static final String DESCRIPT = "cool rims"; 
 
     private Vehicle vehicle; 
 
@@ -23,7 +24,7 @@ public class Rims extends VehicleDecorator{
      */
     public String toString() {
 
-        return vehicle.toString() + ", cool rims"; 
+        return vehicle.toString() + ", " + DESCRIPT; 
     } 
 
     /**

@@ -4,7 +4,8 @@
  */
 public class Paint extends VehicleDecorator{
 
-    public static final double COST = 150; 
+    public static final double COST = 150;
+    public static final String DESCRIPT = "fancy paint";  
 
     private Vehicle vehicle; 
 
@@ -24,7 +25,7 @@ public class Paint extends VehicleDecorator{
      */
     public String toString() {
 
-        return vehicle.toString() + ", fancy paint"; 
+        return vehicle.toString() + ", " + DESCRIPT; 
     }
 
     /**
