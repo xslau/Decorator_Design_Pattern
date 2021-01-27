@@ -4,7 +4,7 @@
  */
 public abstract class Vehicle {
 
-    protected String description; 
+    protected String description;
 
     /**
      * Returns description for Vehicle
@@ -12,13 +12,13 @@ public abstract class Vehicle {
      */
     public String toString() {
 
-        return description;  
+        return description;
     }
 
     /**
      * Abstract method to return Vehicle costs for extending classes
      * @return Vehicle cost
      */
-    public abstract double getCost(); 
+    public abstract double getCost();
 
 }

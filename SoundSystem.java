@@ -6,6 +6,7 @@ public class SoundSystem extends VehicleDecorator{
 
     public static final double COST = 350; 
     public static final String DESCRIPT = "awesome sound";  
+    
     private Vehicle vehicle; 
 
      /**
